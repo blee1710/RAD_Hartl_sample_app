@@ -38,8 +38,16 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # Added bootstrap
 gem 'bootstrap-sass','3.3.7'
+
+# add pagination
+gem 'will_paginate', '3.1.7'
+gem 'bootstrap-will_paginate', '1.0.0'
+
 # Added jquery
 gem 'jquery-rails'
+
+# Sample users
+gem 'faker', '1.7.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
